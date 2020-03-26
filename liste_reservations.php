@@ -36,7 +36,7 @@ if(isset($_POST['btvalider'])){
 	$resultat = $db->query("SELECT * from reservation order by numR");
     echo '
     <P>
-    <TABLE class="table3"> 
+    <TABLE border=2 class="table3"> 
     <THEAD>
       <TR> <TH>N°</TH> <TH>Date</TH> <TH>Nom</TH> <TH>Prénom</TH> <TH>Adresse</TH> <TH>Ville</TH> <TH>Tél</TH> <TH>Email</TH> <TH>Code Vol</TH> <TH>Classe</TH> </TR>
     </THEAD>
